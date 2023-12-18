@@ -242,7 +242,7 @@ body {
     4px 6px 20px 0 rgba(255, 255, 255, 0.966);
 }
 .start button {
-  font-size: 1.8rem;
+  font-size: 1em;
   background-color: rgb(37, 36, 36);
   color: white;
   border: none;
@@ -278,7 +278,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.139), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 button {
-  font-size: 100%;
+  font-size: 0.65em;
   border: 4px solid white;
   font-family: cursive;
   border-radius: 8%;
