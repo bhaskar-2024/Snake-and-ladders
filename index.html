@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake and Ladder</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+    <div class="board">
+        <div id="player1">1</div>
+        <div id="player2">2</div>
+        <div id="player3">3</div>
+        <div id="player4">4</div>
+        <div class="boxes" id="b1"></div>
+        <div class="boxes" id="b2"></div>
+        <div class="boxes" id="b3"></div>
+        <div class="boxes" id="b4"></div>
+        <div class="boxes" id="b5"></div>
+        <div class="boxes" id="b6"></div>
+        <div class="boxes" id="b7"></div>
+        <div class="boxes" id="b8"></div>
+        <div class="boxes" id="b9"></div>
+        <div class="boxes" id="b10"></div>
+        <div class="boxes" id="b11"></div>
+        <div class="boxes" id="b12"></div>
+        <div class="boxes" id="b13"></div>
+        <div class="boxes" id="b14"></div>
+        <div class="boxes" id="b15"></div>
+        <div class="boxes" id="b16"></div>
+        <div class="boxes" id="b17"></div>
+        <div class="boxes" id="b18"></div>
+        <div class="boxes" id="b19"></div>
+        <div class="boxes" id="b20"></div>
+        <div class="boxes" id="b21"></div>
+        <div class="boxes" id="b22"></div>
+        <div class="boxes" id="b23"></div>
+        <div class="boxes" id="b24"></div>
+        <div class="boxes" id="b25"></div>
+        <div class="boxes" id="b26"></div>
+        <div class="boxes" id="b27"></div>
+        <div class="boxes" id="b28"></div>
+        <div class="boxes" id="b29"></div>
+        <div class="boxes" id="b30"></div>
+        <div class="boxes" id="b31"></div>
+        <div class="boxes" id="b32"></div>
+        <div class="boxes" id="b33"></div>
+        <div class="boxes" id="b34"></div>
+        <div class="boxes" id="b35"></div>
+        <div class="boxes" id="b36"></div>
+        <div class="boxes" id="b37"></div>
+        <div class="boxes" id="b38"></div>
+        <div class="boxes" id="b39"></div>
+        <div class="boxes" id="b40"></div>
+        <div class="boxes" id="b41"></div>
+        <div class="boxes" id="b42"></div>
+        <div class="boxes" id="b43"></div>
+        <div class="boxes" id="b44"></div>
+        <div class="boxes" id="b45"></div>
+        <div class="boxes" id="b46"></div>
+        <div class="boxes" id="b47"></div>
+        <div class="boxes" id="b48"></div>
+        <div class="boxes" id="b49"></div>
+        <div class="boxes" id="b50"></div>
+        <div class="boxes" id="b51"></div>
+        <div class="boxes" id="b52"></div>
+        <div class="boxes" id="b53"></div>
+        <div class="boxes" id="b54"></div>
+        <div class="boxes" id="b55"></div>
+        <div class="boxes" id="b56"></div>
+        <div class="boxes" id="b57"></div>
+        <div class="boxes" id="b58"></div>
+        <div class="boxes" id="b59"></div>
+        <div class="boxes" id="b60"></div>
+        <div class="boxes" id="b61"></div>
+        <div class="boxes" id="b62"></div>
+        <div class="boxes" id="b63"></div>
+        <div class="boxes" id="b64"></div>
+        <div class="boxes" id="b65"></div>
+        <div class="boxes" id="b66"></div>
+        <div class="boxes" id="b67"></div>
+        <div class="boxes" id="b68"></div>
+        <div class="boxes" id="b69"></div>
+        <div class="boxes" id="b70"></div>
+        <div class="boxes" id="b71"></div>
+        <div class="boxes" id="b72"></div>
+        <div class="boxes" id="b73"></div>
+        <div class="boxes" id="b74"></div>
+        <div class="boxes" id="b75"></div>
+        <div class="boxes" id="b76"></div>
+        <div class="boxes" id="b77"></div>
+        <div class="boxes" id="b78"></div>
+        <div class="boxes" id="b79"></div>
+        <div class="boxes" id="b80"></div>
+        <div class="boxes" id="b81"></div>
+        <div class="boxes" id="b82"></div>
+        <div class="boxes" id="b83"></div>
+        <div class="boxes" id="b84"></div>
+        <div class="boxes" id="b85"></div>
+        <div class="boxes" id="b86"></div>
+        <div class="boxes" id="b87"></div>
+        <div class="boxes" id="b88"></div>
+        <div class="boxes" id="b89"></div>
+        <div class="boxes" id="b90"></div>
+        <div class="boxes" id="b91"></div>
+        <div class="boxes" id="b92"></div>
+        <div class="boxes" id="b93"></div>
+        <div class="boxes" id="b94"></div>
+        <div class="boxes" id="b95"></div>
+        <div class="boxes" id="b96"></div>
+        <div class="boxes" id="b97"></div>
+        <div class="boxes" id="b98"></div>
+        <div class="boxes" id="b99"></div>
+        <div class="boxes" id="b100"></div>
+    </div>
+    <div class="middle">
+        <div class="gameName">
+            <div class="alphabets">My</div>
+            <div class="alphabets">Snake & Ladder</div>
+            
+            <div class="alphabets">Game</div>
+            
+        </div>
+        <div class="winner">Andd our Winnerrr iss..<br> <span id="winningPlayer">(Wait! game is stil on!)</span></div>
+        <div class="rules">
+            <h1>RULES</h1>
+            <ul>
+                <li>--- My game my rules ---</li>
+                <li>You will start at position no. 1</li>
+                <li>No extra turn after 6!</li>
+                <li>Beware of loosers! they reset the board when they're loosing</li>
+                <li>Player 1 will start first.</li>
+
+            </ul>
+        </div>
+
+    </div>
+    
+    <div class="players">
+        <div id = "player" class="p1">
+            <div class="pTitle"><div class="player1"></div><span>Player No. 1</span></div>
+            <div class="bottom"><div id="dice1"class="dice"></div><button id="pbutton">Roll The Dice</button></div>
+        </div>
+        <div id = "player" class="p2">
+            <div class="pTitle"><div class="player2"></div><span>Player No. 2</span></div>
+            <div class="bottom"><div id="dice2"class="dice"></div><button id="pbutton">Roll The Dice</button></div>
+        </div>
+        <div id = "player" class="p3">
+            <div class="pTitle"><div class="player3"></div><span>Player No. 3</span></div>
+            <div class="bottom"><div id="dice3"class="dice"></div><button id="pbutton">Roll The Dice</button></div>
+        </div>
+        <div id = "player" class="p4">
+            <div class="pTitle"><div class="player4"></div><span>Player No. 4</span></div>
+            <div class="bottom"><div id="dice4"class="dice"></div><button id="pbutton">Roll The Dice</button></div>
+        </div>
+        <div class = "reset">
+            <button id="resetButton">Reset Board!!</button>
+        </div>
+        <div class="startContainer">
+            <div class = "start">
+                <button id="startButton">Start </button>
+            </div>
+        </div>
+        
+
+        
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
